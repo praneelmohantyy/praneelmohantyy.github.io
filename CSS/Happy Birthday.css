@@ -1,0 +1,58 @@
+body{
+    background-image: url(/Photos/button-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#bday{
+    display: block;
+    margin: 25% auto;
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.056);
+    backdrop-filter: blur(150px);
+    border-radius: 10px; 
+    padding: 0 15% 15% 15%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#btn{
+    display: block;
+    width: fit-content;
+    margin: 25% auto -50%  auto;
+    font-size: 140%;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    font-family: "Playwrite NZ", cursive;
+}
+#btn:hover{
+    background-color: rgb(211, 83, 126);
+    transition: 0.018s;
+}
+#btn:not(:hover){
+    transition: 0.018s;
+}
+#btn:active{
+    transform: translateY(4px);
+    transition: 0s;
+}
+#word{
+    display: block;
+    color: lavender;
+    font-size: 200%;
+    margin: 25% 0 25% -15%;
+    width: max-content;
+    font-family: "Playwrite NZ", cursive;
+}
+#heart:hover{
+    font-size: 200%;
+    transition: font-size 0.5s ease;
+}
+#heart:not(:hover){
+    font-size: 100%;
+    transition: all 0.2s ease;
+}

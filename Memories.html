@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mera Taufa Aapke Liye</title>
+    <link rel="icon" type="image/png" href="/Photos/giftbox.png">
+    <link rel="stylesheet" href="CSS/Memories.css">
+    <link rel="stylesheet" href="lightbox2-dev/dist/css/lightbox.css">
+    <script src="JavaScript/Memories.js"></script>
+    <script src="lightbox2-dev/dist/js/lightbox-plus-jquery.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+    </style>
+</head>
+<body style="background-image: url(Photos/sky\ bg.JPG); 
+background-repeat: no-repeat;
+background-size: cover; overflow: hidden; position: fixed;" onload="setImages()">
+<h1 style="text-align: center;">
+    Happy Birthday my sweetheart
+</h1>
+    <div id="message">
+        <p id="hover" style="color: rgb(6, 6, 41); width: max-content;">
+            Hover over or click on an image
+        </p>
+    </div>
+    <div id="gallery">
+        <a href="Photos/walk.JPG" data-lightbox="Photos" data-title="The most iconic photo" class="img-link">
+            <img src="Photos/walk.JPG" alt="The Walk" class="img" 
+            onmouseover="walk(this)"
+            onfocus="walk(this)"
+            onmouseleave="unDo()">
+        </a>
+        <a href="Photos/lift.jpg" data-lightbox="Photos" data-title="This hug was heavenly" class="img-link">
+            <img src="Photos/lift.jpg" alt="The hug in the lift" class="img"
+            onmouseover="lift(this)"
+            onfocus="lift(this)"
+            onmouseleave="unDo()">
+        </a>
+        <a href="Photos/cab.jpg" data-lightbox="Photos" data-title="Sneaky in the cab, huh?" class="img-link"> 
+            <img src="Photos/cab.jpg" alt="Us in the cab" class="img"
+            onmouseover="car(this)"
+            onfocus="car(this)"
+            onmouseleave="unDo()">
+        </a>
+        <a href="Photos/muscle.jpg" data-lightbox="Photos" data-title="Big boy?" class="img-link">
+            <img src="Photos/muscle.jpg" alt="Big boy?" class="img"
+            onmouseover="muscle(this)"
+            onfocus="muscle(this)"
+            onmouseleave="unDo()">
+        </a>
+        <a href="Photos/chatt.JPG" data-lightbox="Photos" data-title="Hard ass chatt pic 🔥" class="img-link">
+            <img src="Photos/chatt.JPG" alt="Chatt ka Hard pic" class="img"
+            onmouseover="chatt(this)"
+            onfocus="chatt(this)"
+            onmouseleave="unDo()">
+        </a>
+        <a href="Photos/hold.jpg" data-lightbox="Photos" data-title="You are so lightweight" class="img-link">
+            <img src="Photos/hold.jpg" alt="Me holding you" class="img"
+            onmouseover="hold(this)"
+            onfocus="hold(this)"
+            onmouseleave="unDo()">
+        </a>
+    </div>
+</body>
+</html>
